@@ -1,0 +1,14 @@
+Rappel des commandes utiles :
+
+Sur Unix/Mac, rendre le fichier "manage.py" exécutable pour éviter de devoir taper "python manage.py ..."
+
+	chmod +x manage.py
+
+Pour l'utiliser désormais :
+	
+	./manage.py ...
+
+Commandes :
+	- runserver : démarre le serveur Web de développement
+	- makemigrations : demande à Django de détecter les éventuels changements effectués sur vos apps
+	- migrate : applique les changements détectés via makemigrations
